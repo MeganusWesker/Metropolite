@@ -1,0 +1,141 @@
+.send-inquiry{
+    min-height: 620px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  
+}
+
+.send-inquiry-form{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    border: 0.5px solid rgb(200, 200, 198);
+}
+
+.send-inquiry-heading{
+    text-align: center;
+    margin: 8px 0;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: rgb(130, 136, 168);
+}
+
+.send-inquiry-form textarea{
+    font: 100 0.8vmax "Roboto", sans-serif;
+    outline: none;
+    border: 0.5px solid rgb(200, 200, 198);
+}
+
+.send-inquiry-child{
+    margin: 15px 0;
+    padding: 4px;
+}
+
+
+.send-inquiry-text{
+    border: 0.5px solid rgb(200, 200, 198);
+    outline:none
+}
+
+.send-inquiry-submit{
+    cursor: pointer;
+    border: 0.5px solid rgb(200, 200, 198);
+    background: #ffa500;
+    color: white;
+    font: 500 0.8vmax "Roboto";
+    padding: 0.6vmax 2vmax;
+    border-radius: 30px;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.send-inquiry-submit:hover{
+    transform: scale(1.1);
+}
+
+
+.send-inquiry-form > input[type="file"]::-webkit-file-upload-button {
+    background-color: #ffa500;
+    color: white;
+    width: 100%;
+    padding: 0.8vmax;
+    border-radius: 30px;
+    border: none;
+    font: 100 0.8vmax "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+/* .send-inquiry-form > input[type="file"]::-webkit-file-upload-button:hover{
+    transform: scale(1.1);
+} */
+
+.send-inquiry-form label{
+    margin: 3px 0;
+    font: 100 0.8vmax "Roboto", sans-serif;
+}
+
+.send-inquiry-form select{
+  margin-bottom: 15px;
+  padding: 5px;
+  font: 100 0.8vmax "Roboto", sans-serif;
+  border: 0.5px solid rgb(200, 200, 198);
+}
+
+
+@media screen and (max-width: 600px){
+
+    .send-inquiry-form select{
+        font: 100 1.2rem  "Roboto", sans-serif;
+    }
+    
+    .send-inquiry-form label{
+        font: 100 1.2rem  "Roboto", sans-serif;
+    }
+
+    .send-inquiry-form > input[type="file"]::-webkit-file-upload-button{
+        font: 100 1.2rem  "Roboto", sans-serif;
+    }
+
+    .send-inquiry-submit{
+        font: 100 1.2rem  "Roboto", sans-serif;
+    }
+
+    .send-inquiry-form textarea{
+        font: 100 1.2rem  "Roboto", sans-serif;
+    }
+
+    
+    .send-inquiry-child{
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width:610px) and (max-width: 1420px ){
+
+    .send-inquiry-form select{
+        font: 100 1.3rem  "Roboto", sans-serif;
+    }
+    
+    .send-inquiry-form label{
+        font: 100 1.3rem  "Roboto", sans-serif;
+    }
+
+    .send-inquiry-form > input[type="file"]::-webkit-file-upload-button{
+        font: 100 1.3rem  "Roboto", sans-serif;
+    }
+
+    .send-inquiry-submit{
+        font: 100 1.3rem  "Roboto", sans-serif;
+    }
+
+    .send-inquiry-form textarea{
+        font: 100 1.5rem  "Roboto", sans-serif;
+    }
+
+    .send-inquiry-child{
+        padding: 10px;
+    }
+}
